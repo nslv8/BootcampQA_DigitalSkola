@@ -5,6 +5,8 @@
     "description": "Selenium WebDriver tests using Mocha with Mochawesome reports",
     "scripts": {
         "cobain": "mocha tests --recursive --timeout 60000",
+        "test-coba": "mocha tests/sesi-9/test_sesi9.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-web-test.html",
+        "test-tugas9": "mocha tests/tugas-sesi-9/tugas_test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-tugas9.html",
         "test-sesi7": "mocha tests/sesi-7/coba.test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-tes.html",
         "tugas-sesi7": "mocha tests/tugas-sesi-7/tugas.test.js --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=hasil-tes-tugas7.html"
     },
